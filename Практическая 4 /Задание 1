@@ -1,0 +1,10 @@
+import math
+
+# Считываем вещественное число с клавиатуры
+x = float(input())
+
+# Вычисляем сумму пола (floor) и потолка (ceil) числа x
+result = math.floor(x) + math.ceil(x)
+
+# Выводим результат
+print(result)
